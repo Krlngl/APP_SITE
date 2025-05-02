@@ -1,17 +1,69 @@
-# Static Landing Page
+# Maiple Pension House Management
 
-This is a static landing page that was converted from a Laravel application. The site contains only frontend files and can be served using any web server.
+A static website for Maiple Pension House Management System, showcasing the key features and providing access to the user manual and app download.
 
-## Directory Structure
+## Features
 
-- `frontend/` - Contains all the frontend files
-  - `landing/` - Landing page templates
-  - `public/` - Public assets (CSS, JS, images)
-  - `index.html` - Main entry point
+- Real-time room availability tracking
+- Check-in/check-out automation
+- Room assignment suggestions
+- User manual access
+- Android app download
+
+## Project Structure
+
+```
+APP_SITE/
+├── assets/
+│   └── public/
+│       ├── css/
+│       ├── images/
+│       ├── js/
+│       ├── pdf/
+│       └── downloads/
+├── index.html
+└── README.md
+```
 
 ## Setup
 
-1. Simply copy the contents of the `frontend` directory to your web server's root directory
-2. Access the site through your web server
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/maiple-pension-house.git
+```
 
-No backend setup or configuration is required as this is a static site.
+2. Navigate to the project directory:
+```bash
+cd maiple-pension-house
+```
+
+3. Serve the website locally:
+```bash
+# Using Python
+python -m http.server 8000
+
+# Or using PHP
+php -S localhost:8000
+```
+
+4. Open your browser and visit:
+```
+http://localhost:8000
+```
+
+## Technologies Used
+
+- HTML5
+- Tailwind CSS
+- JavaScript
+- SVG Icons
+
+## Team
+
+- Project Manager: Karl Benemerito & Khyle Ivan Khim Amacna
+- Lead Developer: Khyle Ivan Khim Amacna
+- UI/UX Designer: Karl Angelo Benemerito
+
+## License
+
+© 2024 Maiple Pension House. All rights reserved.
